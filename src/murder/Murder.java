@@ -108,7 +108,7 @@ public class Murder {
         listaPergunta[0][1] = "Resposta 1";
         
         int escolherPergunta = rd.nextInt(1);
-        
+        int um = 1;
         
         return listaPergunta;
     }
