@@ -113,4 +113,7 @@ public class Murder {
         return listaPergunta;
     }
 
+    public static void imprimir(){
+        System.out.println("Oi");
+    }
 } 
