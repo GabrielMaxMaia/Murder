@@ -377,6 +377,7 @@ public class PROJETOFINALPI {
             
             if (senhainserida.equals(fim)) {
                 murderer();
+                exitGame(nomeDoJogador);
             } else {
                 System.out.println("\nResposta Errada! Cuidado, você possui mais " + j + " tentativas!\n");
                 i++;
@@ -385,8 +386,7 @@ public class PROJETOFINALPI {
                     gameOver(nomeDoJogador);
                 }
             }
-        } while (resposta1 = true);
-        exitGame(nomeDoJogador);
+        } while (resposta1 == true);
     }
 
 //VETOR DE DESAFIOS COM AS PERGUNTAS
